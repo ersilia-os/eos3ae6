@@ -20,6 +20,12 @@ def load_model(framework_dir):
     mdl.load(framework_dir)
     return mdl
 
+def Float(x):
+    try:
+        return float(x)
+    except:
+        return None
+
 
 class Model(object):
     def __init__(self):
@@ -60,7 +66,7 @@ class Model(object):
             h = next(reader)
             result = []
             for r in reader:
-                result += [{"whales": [float(r) for r in r]}]
+                result += [{"whales": [Float(r) for r in r]}]
         output = {
             'result': result,
             'meta': {'whales': h}
