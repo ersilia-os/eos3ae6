@@ -66,7 +66,7 @@ class Model(object):
             h = next(reader)
             result = []
             for r in reader:
-                result += [{"whales": [Float(r) for r in r]}]
+                result += [{"whales": [Float(x) for x in r]}]
         output = {
             'result': result,
             'meta': {'whales': h}
