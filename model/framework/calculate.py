@@ -2,6 +2,7 @@ from whales.ChemTools import prepare_mol_from_sdf
 from whales import do_whales
 import whales.ChemTools as tools
 
+import csv
 import os, sys
 import pandas as pd
 from rdkit.Chem import PandasTools
@@ -25,11 +26,26 @@ PandasTools.WriteSDF(df, sdf_file, molColName='molecule', properties=list(df.col
 
 mols = prepare_mol_from_sdf(sdf_file) # computes 3D geometry from a specified sdf file
 
+
+with open("labels.csv", "r") as f:
+    lab = []
+    for l in f:
+        lab += [l.rstrip()]
+
 whales_library = []
 for mol in mols:
-    whales_temp, lab = do_whales.whales_from_mol(mol)
+    try:
+        whales_temp, _ = do_whales.whales_from_mol(mol)
+    except:
+        whales_temp = None
     whales_library.append(whales_temp)
 
-df_whales_library = pd.DataFrame(whales_library,columns=lab)
 
-df_whales_library.to_csv(output_file, index=False)
+with open(output_file, "w") as f:
+    writer = csv.writer(f)
+    writer.writerow(lab)
+    for r in whales_library:
+        if r is None:
+            r = [""]*len(lab)
+        writer.writerow(r)
+
