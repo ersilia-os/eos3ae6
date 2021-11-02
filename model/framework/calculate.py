@@ -27,7 +27,7 @@ PandasTools.WriteSDF(df, sdf_file, molColName='molecule', properties=list(df.col
 mols = prepare_mol_from_sdf(sdf_file) # computes 3D geometry from a specified sdf file
 
 
-with open("labels.csv", "r") as f:
+with open(os.path.join(ROOT, "labels.csv"), "r") as f:
     lab = []
     for l in f:
         lab += [l.rstrip()]
@@ -48,4 +48,3 @@ with open(output_file, "w") as f:
         if r is None:
             r = [""]*len(lab)
         writer.writerow(r)
-
