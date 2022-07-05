@@ -15,7 +15,7 @@ Molecular descriptors based on 3D structure aimed at scaffold hopping from natur
 - Experimentally validated: Yes
 
 ## Source code
-This model was published by
+This model was published by Grisoni, F., Merk, D., Consonni, V. et al. Scaffold hopping from natural products to synthetic mimetics by holistic molecular similarity. Commun Chem 1, 44 (2018). DOI: https://doi.org/10.1038/s42004-018-0043-x
 - Code: https://github.com/ETHmodlab/scaffold_hopping_whales
 - Chedkpoints: https://github.com/ETHmodlab/scaffold_hopping_whales/blob/master/code/temp_out_hits.sdf
 
