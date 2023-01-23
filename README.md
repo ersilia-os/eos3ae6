@@ -1,26 +1,40 @@
 # Holistic molecular descriptors for scaffold hopping
 
-## Model Identifiers
-- Slug: whales-descriptor
-- Ersilia ID: eos3ae6
-- Tags: fingerprint,	NP,	descriptor
+Weighted Holistic Atom Localization and Entity Shape (WHALES) is a descriptors based on 3D structure to facilitate natural product featurization. It is aimed at scaffold hopping exercises from natural products to synthetic compounds
 
-## Model Description
-Molecular descriptors based on 3D structure aimed at scaffold hopping from natural products to synthetic compounds
-- Input: SMILES
-- Output: Vector	(Vectorial molecular representation)
-- Model type: Regressiom
-- Mode of Training: Pretrained
-- Training data: 3,594,061	(https://github.com/ETHmodlab/scaffold_hopping_whales/tree/master/data)
-- Experimentally validated: Yes
+## Identifiers
 
-## Source code
-This model was published by Grisoni, F., Merk, D., Consonni, V. et al. Scaffold hopping from natural products to synthetic mimetics by holistic molecular similarity. Commun Chem 1, 44 (2018). DOI: https://doi.org/10.1038/s42004-018-0043-x
-- Code: https://github.com/ETHmodlab/scaffold_hopping_whales
-- Chedkpoints: https://github.com/ETHmodlab/scaffold_hopping_whales/blob/master/code/temp_out_hits.sdf
+* EOS model ID: `eos3ae6`
+* Slug: `whales-descriptor`
+
+## Characteristics
+
+* Input: `Compound`
+* Input Shape: `Single`
+* Task: `Representation`
+* Output: `Descriptor`
+* Output Type: `Float`
+* Output Shape: `List`
+* Interpretation: Vector representation of a molecule
+
+## References
+
+* [Publication](https://www.nature.com/articles/s42004-018-0043-x)
+* [Source Code](https://github.com/ETHmodlab/scaffold_hopping_whales)
+* Ersilia contributor: [miquelduranfrigola](https://github.com/miquelduranfrigola)
+
+## Citation
+
+If you use this model, please cite the [original authors](https://www.nature.com/articles/s42004-018-0043-x) of the model and the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff).
 
 ## License
-The GPL-v3 license applies to all parts of the repository that are not externally maintained libraries. This repository uses the externally maintained library "scaffold_hopping_whales", located at `/model` and licensed under an MIT License
 
-## History
-- This model was downloaded and incorporated on September 14, 2021
+This package is licensed under a GPL-3.0 license. The model contained within this package is licensed under a MIT license.
+
+Notice: Ersilia grants access to these models 'as is' provided by the original authors, please refer to the original code repository and/or publication if you use the model in your research.
+
+## About Us
+
+The [Ersilia Open Source Initiative](https://ersilia.io) is a Non Profit Organization ([1192266](https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5170657/full-print)) with the mission is to equip labs, universities and clinics in LMIC with AI/ML tools for infectious disease research.
+
+[Help us](https://www.ersilia.io/donate) achieve our mission!
