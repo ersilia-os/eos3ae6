@@ -23,6 +23,9 @@ Weighted Holistic Atom Localization and Entity Shape (WHALES) is a descriptors b
 * [Source Code](https://github.com/ETHmodlab/scaffold_hopping_whales)
 * Ersilia contributor: [miquelduranfrigola](https://github.com/miquelduranfrigola)
 
+## Ersilia model URLs
+* [GitHub](https://github.com/ersilia-os/eos3ae6)
+
 ## Citation
 
 If you use this model, please cite the [original authors](https://www.nature.com/articles/s42004-018-0043-x) of the model and the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff).
