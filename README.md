@@ -25,6 +25,8 @@ Weighted Holistic Atom Localization and Entity Shape (WHALES) is a descriptors b
 
 ## Ersilia model URLs
 * [GitHub](https://github.com/ersilia-os/eos3ae6)
+* [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3ae6.zip)
+* [DockerHub](https://hub.docker.com/r/ersiliaos/eos3ae6) (AMD64, ARM64)
 
 ## Citation
 

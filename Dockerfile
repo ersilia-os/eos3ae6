@@ -1,7 +1,7 @@
 FROM bentoml/model-server:0.11.0-py37
 
-RUN conda install -c conda-forge rdkit=2020.03
-RUN conda install pandas
+RUN pip install rdkit==2023.3.1
+RUN pip install pandas==1.3.5
 
 WORKDIR /repo
 COPY . /repo

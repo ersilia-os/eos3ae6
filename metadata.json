@@ -27,5 +27,11 @@
     "Publication": "https://www.nature.com/articles/s42004-018-0043-x",
     "Source Code": "https://github.com/ETHmodlab/scaffold_hopping_whales",
     "License": "MIT",
-    "Contributor": "miquelduranfrigola"
+    "Contributor": "miquelduranfrigola",
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3ae6.zip",
+    "DockerHub": "https://hub.docker.com/r/ersiliaos/eos3ae6",
+    "Docker Architecture": [
+        "AMD64",
+        "ARM64"
+    ]
 }
