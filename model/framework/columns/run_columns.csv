@@ -1,0 +1,34 @@
+name,type,direction,description
+r_00,float,,WHALES descriptor remoteness (R) 0 
+r_01,float,,WHALES descriptor remoteness (R) 1 
+r_02,float,,WHALES descriptor remoteness (R) 2 
+r_03,float,,WHALES descriptor remoteness (R) 3 
+r_04,float,,WHALES descriptor remoteness (R) 4 
+r_05,float,,WHALES descriptor remoteness (R) 5 
+r_06,float,,WHALES descriptor remoteness (R) 6 
+r_07,float,,WHALES descriptor remoteness (R) 7 
+r_08,float,,WHALES descriptor remoteness (R) 8 
+r_09,float,,WHALES descriptor remoteness (R) 9 
+r_10,float,,WHALES descriptor remoteness (R) 10 
+i_00,float,,WHALES descriptor isolation degree (I) 0 
+i_01,float,,WHALES descriptor isolation degree (I) 1 
+i_02,float,,WHALES descriptor isolation degree (I) 2 
+i_03,float,,WHALES descriptor isolation degree (I) 3 
+i_04,float,,WHALES descriptor isolation degree (I) 4 
+i_05,float,,WHALES descriptor isolation degree (I) 5 
+i_06,float,,WHALES descriptor isolation degree (I) 6 
+i_07,float,,WHALES descriptor isolation degree (I) 7 
+i_08,float,,WHALES descriptor isolation degree (I) 8 
+i_09,float,,WHALES descriptor isolation degree (I) 9 
+i_10,float,,WHALES descriptor isolation degree (I) 10 
+ir_00,float,,WHALES descriptor isolation-remoteness ratio (IR) 0 
+ir_01,float,,WHALES descriptor isolation-remoteness ratio (IR) 1 
+ir_02,float,,WHALES descriptor isolation-remoteness ratio (IR) 2 
+ir_03,float,,WHALES descriptor isolation-remoteness ratio (IR) 3 
+ir_04,float,,WHALES descriptor isolation-remoteness ratio (IR) 4 
+ir_05,float,,WHALES descriptor isolation-remoteness ratio (IR) 5 
+ir_06,float,,WHALES descriptor isolation-remoteness ratio (IR) 6 
+ir_07,float,,WHALES descriptor isolation-remoteness ratio (IR) 7 
+ir_08,float,,WHALES descriptor isolation-remoteness ratio (IR) 8 
+ir_09,float,,WHALES descriptor isolation-remoteness ratio (IR) 9 
+ir_10,float,,WHALES descriptor isolation-remoteness ratio (IR) 10 
