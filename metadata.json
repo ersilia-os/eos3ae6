@@ -46,6 +46,11 @@
     ],
     "Model Size": 1.0,
     "Environment Size": 508.0,
-    "Image Size": 454.41,
+    "Image Size": 454.16,
+    "Computational Performance 1": 30.87,
+    "Computational Performance 2": 36.6,
+    "Computational Performance 3": 114.99,
+    "Computational Performance 4": 840.38,
+    "Computational Performance 5": -1.0,
     "Docker Pack Method": "FastAPI"
 }
