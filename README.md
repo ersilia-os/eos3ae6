@@ -4,6 +4,7 @@ Weighted Holistic Atom Localization and Entity Shape (WHALES) is a descriptors b
 
 This model was incorporated on 2021-07-15.
 
+
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos3ae6`
@@ -13,7 +14,7 @@ This model was incorporated on 2021-07-15.
 - **Task:** `Representation`
 - **Subtask:** `Featurization`
 - **Biomedical Area:** `Any`
-- **Target Organism:** `Not Applicable`
+- **Target Organism:** `Any`
 - **Tags:** `Natural product`, `Descriptor`
 
 ### Input
