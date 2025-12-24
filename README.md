@@ -2,7 +2,7 @@
 
 Weighted Holistic Atom Localization and Entity Shape (WHALES) is a descriptors based on 3D structure to facilitate natural product featurization. It is aimed at scaffold hopping exercises from natural products to synthetic compounds
 
-This model was incorporated on 2021-07-15.Last packaged on 2025-10-07.
+This model was incorporated on 2021-07-15.Last packaged on 2025-12-24.
 
 ## Information
 ### Identifiers
@@ -50,12 +50,12 @@ _10 of 33 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `504`
-- **Image Size (Mb):** `538.71`
+- **Image Size (Mb):** `545.59`
 
 **Computational Performance (seconds):**
-- 10 inputs: `28.38`
-- 100 inputs: `50.14`
-- 10000 inputs: `1457.43`
+- 10 inputs: `27.73`
+- 100 inputs: `48.66`
+- 10000 inputs: `1404.57`
 
 ### References
 - **Source Code**: [https://github.com/ETHmodlab/scaffold_hopping_whales](https://github.com/ETHmodlab/scaffold_hopping_whales)
