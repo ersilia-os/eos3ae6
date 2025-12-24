@@ -1,7 +1,7 @@
 from whales.ChemTools import prepare_mol_from_sdf
 from whales import do_whales
 import whales.ChemTools as tools
-
+from ersilia_pack_utils.core import read_smiles, write_out
 import os, sys
 import pandas as pd
 from rdkit.Chem import PandasTools
