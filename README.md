@@ -59,7 +59,7 @@ _10 of 33 columns are shown_
 
 ### References
 - **Source Code**: [https://github.com/ETHmodlab/scaffold_hopping_whales](https://github.com/ETHmodlab/scaffold_hopping_whales)
-- **Publication**: [https://www.nature.com/articles/s42004-018-0043-x](https://www.nature.com/articles/s42004-018-0043-x)
+- **Publication**: [https://doi.org/10.1038/s42004-018-0043-x](https://doi.org/10.1038/s42004-018-0043-x)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2018`
 - **Ersilia Contributor:** [miquelduranfrigola](https://github.com/miquelduranfrigola)
