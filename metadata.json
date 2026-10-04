@@ -3,7 +3,7 @@
     "Slug": "whales-descriptor",
     "Status": "Ready",
     "Title": "Holistic molecular descriptors for scaffold hopping",
-    "Description": "Weighted Holistic Atom Localization and Entity Shape (WHALES) is a descriptors based on 3D structure to facilitate natural product featurization. It is aimed at scaffold hopping exercises from natural products to synthetic compounds",
+    "Description": "Computes WHALES descriptors, 33 values that summarise the distribution of partial charges over a molecule's three-dimensional shape rather than cataloguing its substructures. Grisoni and colleagues designed them for scaffold hopping, where the aim is to find synthetic compounds mimicking a natural product without sharing its skeleton, and demonstrated prospective retrieval of active mimetics. Since descriptors are computed from a conformer and its charges, values shift with the geometry provided.",
     "Deployment": [
         "Local"
     ],
@@ -20,7 +20,7 @@
     ],
     "Output Dimension": 33,
     "Output Consistency": "Fixed",
-    "Interpretation": "Vector representation of a molecule",
+    "Interpretation": "33 WHALES descriptors summarising charge distribution over molecular shape.",
     "Tag": [
         "Natural product",
         "Descriptor"
