@@ -25,9 +25,17 @@ tmp_folder = tempfile.mkdtemp()
 sdf_file = os.path.join(tmp_folder, SDF_FILE)
 if "smiles" in df.columns:
     PandasTools.AddMoleculeColumnToFrame(df,'smiles','molecule')
-PandasTools.WriteSDF(df, sdf_file, molColName='molecule', properties=list(df.columns))
 
-mols = prepare_mol_from_sdf(sdf_file) # computes 3D geometry from a specified sdf file
+# Molecules RDKit cannot parse are None; writing them to the SDF made the whole
+# batch fail. Only valid molecules go to the SDF; invalid ones get an empty row.
+valid_idx = [i for i, m in enumerate(df["molecule"]) if m is not None]
+df_valid = df.iloc[valid_idx]
+
+if len(df_valid) > 0:
+    PandasTools.WriteSDF(df_valid, sdf_file, molColName='molecule', properties=list(df_valid.columns))
+    mols = prepare_mol_from_sdf(sdf_file) # computes 3D geometry from a specified sdf file
+else:
+    mols = []
 
 
 with open(os.path.join(ROOT, "labels.csv"), "r") as f:
@@ -35,13 +43,17 @@ with open(os.path.join(ROOT, "labels.csv"), "r") as f:
     for l in f:
         lab += [l.rstrip()]
 
-whales_library = []
+whales_valid = []
 for mol in mols:
     try:
         whales_temp, _ = do_whales.whales_from_mol(mol)
     except:
         whales_temp = None
-    whales_library.append(whales_temp)
+    whales_valid.append(whales_temp)
+
+whales_library = [None] * len(df)
+for i, w in zip(valid_idx, whales_valid):
+    whales_library[i] = w
 
 R = []
 for r in whales_library:
