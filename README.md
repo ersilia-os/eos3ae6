@@ -2,7 +2,8 @@
 
 Computes WHALES descriptors, 33 values summarising how partial charge is distributed over a molecule's three-dimensional shape instead of cataloguing its substructures, split into atomic remoteness, isolation degree and the ratio between the two. Grisoni and colleagues designed them for scaffold hopping from natural products to simpler synthetic mimetics, and in a prospective database search seeded with four natural cannabinoids 35% of the compounds selected were confirmed experimentally as human cannabinoid receptor modulators. Values follow from the conformer and charges supplied.
 
-This model was incorporated on 2021-07-15.Last packaged on 2026-04-22.
+This model was incorporated on 2021-07-15.
+Last packaged on 2026-04-22.
 
 ## Information
 ### Identifiers
@@ -28,16 +29,16 @@ This model was incorporated on 2021-07-15.Last packaged on 2026-04-22.
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
 |------|------|-----------|-------------|
-| r_00 | float |  | WHALES descriptor remoteness (R) 0  |
-| r_01 | float |  | WHALES descriptor remoteness (R) 1  |
-| r_02 | float |  | WHALES descriptor remoteness (R) 2  |
-| r_03 | float |  | WHALES descriptor remoteness (R) 3  |
-| r_04 | float |  | WHALES descriptor remoteness (R) 4  |
-| r_05 | float |  | WHALES descriptor remoteness (R) 5  |
-| r_06 | float |  | WHALES descriptor remoteness (R) 6  |
-| r_07 | float |  | WHALES descriptor remoteness (R) 7  |
-| r_08 | float |  | WHALES descriptor remoteness (R) 8  |
-| r_09 | float |  | WHALES descriptor remoteness (R) 9  |
+| r_00 | float |  | WHALES descriptor remoteness (R) 0 |
+| r_01 | float |  | WHALES descriptor remoteness (R) 1 |
+| r_02 | float |  | WHALES descriptor remoteness (R) 2 |
+| r_03 | float |  | WHALES descriptor remoteness (R) 3 |
+| r_04 | float |  | WHALES descriptor remoteness (R) 4 |
+| r_05 | float |  | WHALES descriptor remoteness (R) 5 |
+| r_06 | float |  | WHALES descriptor remoteness (R) 6 |
+| r_07 | float |  | WHALES descriptor remoteness (R) 7 |
+| r_08 | float |  | WHALES descriptor remoteness (R) 8 |
+| r_09 | float |  | WHALES descriptor remoteness (R) 9 |
 
 _10 of 33 columns are shown_
 ### Source and Deployment
