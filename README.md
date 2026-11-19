@@ -3,7 +3,7 @@
 Computes WHALES descriptors, 33 values summarising how partial charge is distributed over a molecules three-dimensional shape instead of cataloguing its substructures, split into atomic remoteness, isolation degree and the ratio between the two. Grisoni and colleagues designed them for scaffold hopping from natural products to simpler synthetic mimetics, and in a prospective database search seeded with four natural cannabinoids 35% of the compounds selected were confirmed experimentally as human cannabinoid receptor modulators. Values follow from the conformer and charges supplied.
 
 This model was incorporated on 2021-07-15.
-Last packaged on 2026-04-22.
+Last packaged on 2026-11-19.
 
 ## Information
 ### Identifiers
@@ -51,12 +51,12 @@ _10 of 33 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `517`
-- **Image Size (Mb):** `551.52`
+- **Image Size (Mb):** `185.51`
 
 **Computational Performance (seconds):**
-- 10 inputs: `35.34`
-- 100 inputs: `55.03`
-- 10000 inputs: `1420.36`
+- 10 inputs: `27.73`
+- 100 inputs: `48.93`
+- 10000 inputs: `1401.87`
 
 ### References
 - **Source Code**: [https://github.com/ETHmodlab/scaffold_hopping_whales](https://github.com/ETHmodlab/scaffold_hopping_whales)
