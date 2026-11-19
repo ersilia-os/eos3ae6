@@ -3,7 +3,7 @@
     "Slug": "whales-descriptor",
     "Status": "Ready",
     "Title": "Holistic molecular descriptors for scaffold hopping",
-    "Description": "Computes WHALES descriptors, 33 values summarising how partial charge is distributed over a molecule's three-dimensional shape instead of cataloguing its substructures, split into atomic remoteness, isolation degree and the ratio between the two. Grisoni and colleagues designed them for scaffold hopping from natural products to simpler synthetic mimetics, and in a prospective database search seeded with four natural cannabinoids 35% of the compounds selected were confirmed experimentally as human cannabinoid receptor modulators. Values follow from the conformer and charges supplied.",
+    "Description": "Computes WHALES descriptors, 33 values summarising how partial charge is distributed over a molecules three-dimensional shape instead of cataloguing its substructures, split into atomic remoteness, isolation degree and the ratio between the two. Grisoni and colleagues designed them for scaffold hopping from natural products to simpler synthetic mimetics, and in a prospective database search seeded with four natural cannabinoids 35% of the compounds selected were confirmed experimentally as human cannabinoid receptor modulators. Values follow from the conformer and charges supplied.",
     "Deployment": [
         "Local"
     ],
