@@ -1,6 +1,6 @@
 # Holistic molecular descriptors for scaffold hopping
 
-Computes WHALES descriptors, 33 values summarising how partial charge is distributed over a molecule's three-dimensional shape instead of cataloguing its substructures, split into atomic remoteness, isolation degree and the ratio between the two. Grisoni and colleagues designed them for scaffold hopping from natural products to simpler synthetic mimetics, and in a prospective database search seeded with four natural cannabinoids 35% of the compounds selected were confirmed experimentally as human cannabinoid receptor modulators. Values follow from the conformer and charges supplied.
+Computes WHALES descriptors, 33 values summarising how partial charge is distributed over a molecules three-dimensional shape instead of cataloguing its substructures, split into atomic remoteness, isolation degree and the ratio between the two. Grisoni and colleagues designed them for scaffold hopping from natural products to simpler synthetic mimetics, and in a prospective database search seeded with four natural cannabinoids 35% of the compounds selected were confirmed experimentally as human cannabinoid receptor modulators. Values follow from the conformer and charges supplied.
 
 This model was incorporated on 2021-07-15.
 Last packaged on 2026-04-22.
@@ -50,7 +50,7 @@ _10 of 33 columns are shown_
 
 ### Resource Consumption
 - **Model Size (Mb):** `1`
-- **Environment Size (Mb):** `510`
+- **Environment Size (Mb):** `517`
 - **Image Size (Mb):** `551.52`
 
 **Computational Performance (seconds):**
